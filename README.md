@@ -4,17 +4,22 @@
 
 ## Getting Started
 
-1.  **Clone the repository:**
+#### Clone the repository:
+
     ```bash
     git clone https://github.com/simonachkar/hello-canada.git
     cd hello-canada
     ```
-2.  **Install dependencies:**
+
+#### Install dependencies:
+
     ```bash
     npm install
     # or yarn install
     ```
-3.  **Start the development server:**
+
+#### Start the development server:
+
     ```bash
     npm run dev
     # or yarn dev
@@ -24,7 +29,6 @@
 ## Data
 
 The app fetches data from a simple `json-server` instance hosted on [https://my-json-server.typicode.com/simonachkar/demo-canada-api-server](https://my-json-server.typicode.com/simonachkar/demo-canada-api-server).
-
 
 ## Build for Production
 
