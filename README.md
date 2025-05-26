@@ -1,6 +1,5 @@
 # Hello Canada
 
-
 "Hello Canada" is a simple demo app showcasing the provinces and territories of Canada. It's built with **React** and powered by **Vite** for a fast development experience.
 
 ## Getting Started
