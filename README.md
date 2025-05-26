@@ -1,12 +1,12 @@
 # Hello Canada
 
-"Hello Canada" is a simple demo app showcasing the provinces and territories of Canada. It's built with **React** and powered by **Vite** for a fast development experience.
+"Hello Canada" is a demo application designed to highlight the provinces and territories of Canada. It leverages React for its user interface and Vite for a speedy development workflow. The app demonstrates fundamental React concepts such as `useState` for managing component state, `useEffect` for handling side effects (like data fetching or DOM manipulation), and interaction with LocalStorage for persistent data storage within the browser.
 
 ## Getting Started
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/hello-canada.git
+    git clone https://github.com/simonachkar/hello-canada.git
     cd hello-canada
     ```
 2.  **Install dependencies:**
