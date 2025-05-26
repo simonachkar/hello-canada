@@ -17,7 +17,7 @@ function Counter() {
   }, [count]);
 
   const increment = () => {
-    setCount(prevCount => prevCount + 1);
+    setCount(count + 1);
   };
 
   const reset = () => {
