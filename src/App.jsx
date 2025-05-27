@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import List from "./components/list";
-import Counter from "./components/counter"; // Import the new Counter component
+import Counter from "./components/counter";
 import "./App.css";
 
 const API_URL =
