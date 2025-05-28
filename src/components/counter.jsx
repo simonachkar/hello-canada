@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './counter.css'; 
 
-const LOCAL_STORAGE_KEY = 'counterValue';
+const LOCAL_STORAGE_KEY = 'helloCanadaCounterValue';
 
 function Counter() {
   const [count, setCount] = useState(() => {
