@@ -34,12 +34,11 @@ function Counter() {
         {isVisible ? 'Hide Counter' : 'Show Counter'}
       </button>
 
-      {/* Conditionally render the counter content based on isVisible state */}
       {isVisible && (
         <div className="counter-container minimal">
           <p className="counter-display">{count}</p>
           <div className="counter-buttons-minimal">
-            <button onClick={increment}>+</button> {/* Simpler increment button */}
+            <button onClick={increment}>+</button>
             <button onClick={reset}>Reset</button>
           </div>
         </div>
