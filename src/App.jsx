@@ -25,7 +25,7 @@ function App() {
       <h1>Hello Canada (A demo React App)</h1>
       <img
         alt="Canada's Flag"
-        width={125}
+        width={150}
         src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
       />
 
