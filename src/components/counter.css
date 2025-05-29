@@ -1,0 +1,70 @@
+.counter-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.show-counter-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+  margin-bottom: 10px;
+}
+
+.show-counter-btn:hover {
+  background-color: #5a6268;
+}
+
+.counter-container.minimal {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.counter-container .counter-display {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #28a745;
+  margin: 0 0 10px 0;
+  line-height: 1;
+}
+
+.counter-buttons-minimal {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.counter-buttons-minimal button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+}
+
+.counter-buttons-minimal button:first-child {
+  background-color: #28a745;
+}
+
+.counter-buttons-minimal button:first-child:hover {
+  background-color: #218838;
+}
+
+.counter-buttons-minimal button:last-child {
+  background-color: #dc3545;
+}
+
+.counter-buttons-minimal button:last-child:hover {
+  background-color: #c82333;
+}

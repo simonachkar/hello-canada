@@ -1,40 +1,39 @@
-# Hello Canada....
+# Hello Canada
 
-Hello Canada, is a simple demo app that showcases the provinces and territories of Canada. It was built using Create React App, a popular tool for bootstrapping React applications.
+"Hello Canada" is a demo application designed to highlight the provinces and territories of Canada. It leverages React for its user interface and Vite for a speedy development workflow. The app demonstrates fundamental React concepts such as `useState` for managing component state, `useEffect` for handling side effects (like data fetching or DOM manipulation), and interaction with LocalStorage for persistent data storage within the browser.
 
 ## Getting Started
 
-To get started with Hello Canada, follow these steps:
+#### Clone the repository:
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Run `npm install` to install the project dependencies.
-4. Run `npm start` to start the development server.
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+    ```bash
+    git clone https://github.com/simonachkar/hello-canada.git
+    cd hello-canada
+    ```
 
-## Data Fetching
+#### Install dependencies:
 
-Hello Canada uses json-server to fetch the data from a simple `db.json` file. The data is hosted on [https://my-json-server.typicode.com](https://my-json-server.typicode.com).
+    ```bash
+    npm install
+    # or yarn install
+    ```
 
-## Deployment
+#### Start the development server:
 
-To deploy Hello Canada to a production environment, follow these steps:
+    ```bash
+    npm run dev
+    # or yarn dev
+    ```
+    Your app will be ready at `http://localhost:5173/`.
 
-1. Run `npm run build` to build the app for production.
-2. The optimized and minified build files will be located in the `build` folder.
-3. Deploy the contents of the `build` folder to your preferred hosting platform.
+## Data
 
-## Contributing
+The app fetches data from a simple `json-server` instance hosted on [https://my-json-server.typicode.com/simonachkar/demo-canada-api-server](https://my-json-server.typicode.com/simonachkar/demo-canada-api-server).
 
-Contributions to Hello Canada are welcome! If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/your-username/hello-canada).
+## Build for Production
 
-## Learn More
+To create a production-ready build:
 
-To learn more about Create React App and React, check out the following resources:
-
-- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [React documentation](https://reactjs.org/)
-
-## License
-
-Hello Canada is open source and released under the [MIT License](https://opensource.org/licenses/MIT).
+```bash
+npm run build
+```
